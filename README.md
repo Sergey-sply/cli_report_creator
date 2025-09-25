@@ -1,17 +1,14 @@
 # Description
-___
 This is a cli Report creator based on Registry and Factory patterns.
 
 
 ## Installation using pip
-___
 1. Clone the repository
 2. Enter the folder, activate virtual env
 3. run `pip install -r requirement.txt`
 
 
 ## Creating report
-___
 ### Usage
 ```commandline
 python -m cli --files file.csv --report reportKey
@@ -40,9 +37,9 @@ output example
 ```
 
 ## An easy way to add a new report
-___
 
 To create a new report type, you must create a subclass of base class **Report**, add report_key to subclass attr, implement build_report method and import your class to src/reporter/\_\_init\_\_.py.
+
 
 ### Example
 
