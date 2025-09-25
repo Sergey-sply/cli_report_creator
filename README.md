@@ -4,7 +4,7 @@ This is a cli Report creator based on Registry and Factory patterns.
 
 ## Installation using pip
 1. Clone the repository
-2. Enter the folder, activate virtual env
+2. Enter the folder, create and activate virtual env
 3. run `pip install -r requirement.txt`
 
 
